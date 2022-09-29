@@ -85,7 +85,7 @@ class TicTacToe:
                 print(item, end=" ")
             print()
 
-    def start(self):
+    def main(self):
         self.create_board()
 
         player = 'X' if self.get_random_first_player() == 1 else 'O'
@@ -122,4 +122,4 @@ class TicTacToe:
 
 # starting the game
 tic_tac_toe = TicTacToe()
-tic_tac_toe.start()
+tic_tac_toe.main()
